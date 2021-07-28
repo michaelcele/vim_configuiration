@@ -13,28 +13,28 @@ set smartindent
 set cindent
 set noshowmode
 
-call plug#begin('~/.vim/plugged')
+"call plug#begin('~/.vim/plugged')
 
 "themes
-Plug'morhetz/gruvbox'
+"Plug'morhetz/gruvbox'
 
 
 "IDE
-Plug'easymotion/vim-easymotion'
-Plug'scrooloose/nerdtree'
-Plug'christoomey/vim-tmux-navigator'
+"Plug'easymotion/vim-easymotion'
+"Plug'scrooloose/nerdtree'
+"Plug'christoomey/vim-tmux-navigator'
 
 "airline theme
-Plug'vim-airline/vim-airline'
-Plug'vim-airline/vim-airline-themes'
+"Plug'vim-airline/vim-airline'
+"Plug'vim-airline/vim-airline-themes'
 
-call plug#end()
+"call plug#end()
 
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
-set background=dark
-let NERDTreeQuitOnOpen=1
-let g:airline_theme='virtualenv'
+"let g:gruvbox_contrast_dark = "hard"
+"set background=dark
+"let NERDTreeQuitOnOpen=1
+"let g:airline_theme='virtualenv'
 
 "tecla para iniciar pluggins
 let mapleader=" "
